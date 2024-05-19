@@ -1,0 +1,21 @@
+.Container {
+    left: 0;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -10000;
+}
+
+.Container.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    width: auto;
+}
+
+.Image {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: -10000;
+}
